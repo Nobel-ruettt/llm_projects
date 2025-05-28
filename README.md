@@ -97,4 +97,11 @@ Hopefully you're now the proud owner of your very own `.env` file with your key 
 
 **IMPORTANT: be sure to Save the .env file after you edit it.**
 
+### CrewAi Commands:
+
+1. Create your crew by using cmd crewai create crew latest-ai-development
+2. Run Crew by using cmd crewai run
+
+When running the crew remember you are in the crew project folder where the crew was created
+
 ## And that's it!!
