@@ -59,7 +59,6 @@ With uv, you do a few things differently:
 you have to create a file name '.env' in the root directory for all the credentials. where you will save the OPENAI_API_KEY and other api keys 
 this are the environment variables which can be accessed in the code.
 
-1. In Cursor, go to the File menu and select "New Text File".
 
 Type the following, being SUPER careful that you get this exactly right:
 
