@@ -6,21 +6,12 @@
 3. The evil Windows 260 character limit to filenames - here is a full [explanation and fix](https://chatgpt.com/share/67b0afb9-1b60-8012-a9f7-f968a5a910c7)! You'll need to restart after making the change.  
 4. If you've not worked with Data Science packages on your computer before, you'll need to install Microsoft Build Tools. Here are [instructions](https://chatgpt.com/share/67b0b762-327c-8012-b809-b4ec3b9e7be0).     
 
-### Part 1: Install Cursor
-1. Visit cursor at https://www.cursor.com/
+### Part 1: Install Cursor or Visual Studio Code
+1. Visit the cursor at https://www.cursor.com/
 2. Click Sign In on the top right, then Sign Up, to create your account
 3. Download and follow its instructions to install and open Cursor
 
-After you start Cursor, you can pick the defaults for all its questions.  
-When it's time to open the project in Cursor:  
-1. Launch Cursor, if it's not already running  
-2. File menu >> New Window  
-3. Click "Open project"  
-4. Navigate into the project root directory called `agents` (probably within projects) and click Open
-5. When your project opens, you may be prompted to "install recommended extensions" for Python and Jupyter. If so, choose Yes! Otherwise:
-- Open extensions (View >> extensions)
-- Search for python, and when the results show, click on the ms-python one, and Install it if not already installed
-- Search for jupyter, and when the results show, click on the Microsoft one, and Install it if not already installed
+I used Visual Studio Code because I can utilize the free GitHub Copilot for code completion, and it's similar to the cursor functionality.
 
 
 ### Part 2: The amazing `uv`
@@ -28,10 +19,9 @@ Follow the instructions here to install uv - I recommend using the Standalone In
 
 https://docs.astral.sh/uv/getting-started/installation/
 
-Then within Cursor, select View >> Terminal, to see a Terminal window within Cursor.  
-Type `pwd` to see the current directory, and check you are in the 'agents' directory - like `C:\Users\YourUsername\Documents\Projects\agents` or similar
+Go to terminal of the current project directory
 
-Start by running `uv self update` to make sure you're on the latest version of uv.
+Start by running `uv self update` to ensure you're on the latest version of UV.
 
 One thing to watch for: if you've used Anaconda before, make sure that your Anaconda environment is deactivated   
 `conda deactivate`  
