@@ -56,7 +56,8 @@ With uv, you do a few things differently:
 
 ### Part 3: The `.env` file
 
-When you have the key, it's time to create your `.env` file:
+you have to create a file name '.env' in the root directory for all the credentials. where you will save the OPENAI_API_KEY and other api keys 
+this are the environment variables which can be accessed in the code.
 
 1. In Cursor, go to the File menu and select "New Text File".
 
@@ -79,13 +80,6 @@ ANTHROPIC_API_KEY=xxxx
 DEEPSEEK_API_KEY=xxxx
 ```
 
-2. Now go to File menu >> Save As.. and save the file in the directory called `agents` (also known as the project root directory) with the name `.env`  
-
-Here's the thing: it **needs** to go in the directory named `agents` and it **needs** to be named precisely `.env` -- not "env" and not "env.txt" or ".env.txt" but exactly the 4 characters `.env` otherwise it won't work!! 
-
-Hopefully you're now the proud owner of your very own `.env` file with your key inside, and you're ready for action.
-
-**IMPORTANT: be sure to Save the .env file after you edit it.**
 
 ### CrewAi Commands:
 
